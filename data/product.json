@@ -1,0 +1,22 @@
+[
+  {
+    "id": "9a2hjceufm6l5ads1u6",
+    "timestamp": 1657159163214,
+    "nombre": "Pepsi",
+    "descripcion": "Pepsi xd",
+    "codigo": "p001",
+    "foto": "foto",
+    "precio": 10,
+    "stock": 10
+  },
+  {
+    "id": "5t3lk8p8fkvl5ain2h3",
+    "timestamp": 1657167328839,
+    "nombre": "Coca",
+    "descripcion": "Coca xd",
+    "codigo": "p001",
+    "foto": "foto",
+    "precio": 10,
+    "stock": 10
+  }
+]

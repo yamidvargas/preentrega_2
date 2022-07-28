@@ -1,0 +1,10 @@
+import {createProductController,findProductsController,findProductByIdController, updateProductController, deleteProductByIdController} from './controller.js';
+import express from 'express';
+import { verifyRol } from '../../middleware/verify_rol.js';
+const router = express.Router();
+router.post('/',verifyRol,createProductController);
+router.get('/',findProductsController);
+router.get('/:id',findProductByIdController);
+router.put('/:id',verifyRol,updateProductController);
+router.delete('/:id',verifyRol,deleteProductByIdController);
+export default router;
